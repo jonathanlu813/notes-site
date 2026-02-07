@@ -5,10 +5,13 @@ description: "Personal notes and essays."
 
 Welcome.
 
-- This site is generated with Quartz.
-- Source notes live in a private repo (`notes-vault`). Public posts are exported here.
+- Generated with Quartz.
+- Source notes live in private `notes-vault`. Public notes are exported here.
 
-## First steps
+Start here: [[about]]
 
-- Create a new note: `content/some-note.md`
-- Link notes using `[[Wiki Links]]`
+## How publishing works
+
+- Write privately in `notes-vault`
+- Mark a note with `publish: true`
+- Run the exporter to copy it into this repo’s `content/`
